@@ -16,23 +16,23 @@
 </head>
 <body>
 	<div class="wrapper">
-		<div id="pagepiling">
+		<div class="mask"></div>
+		<div id="pagepiling" class="overlay">
 			<!-- START MAIN-BLOCK -->
 			<div class="section">
 				<main class="main" style="background: url(img/main.png); background-size: cover; background-repeat: no-repeat;">
 					
 						<header class="header ">
 								<a href="" class="header__name">MoGo</a>
-								<div class="btn-nav"></div>
 								<nav class="navigation">
 									<ul class="navigation__list">
-										<li><a href="" class="navigation__item">About</a></li>
-										<li><a href="" class="navigation__item">Servise</a></li>
-										<li><a href="" class="navigation__item">Work</a></li>
-										<li><a href="" class="navigation__item">Blog</a></li>
-										<li><a href="" class="navigation__item">Contact</a></li>
-										<li ><a href="" class="navigation__item"><span class="icon-shopping-card"></span></a></li>
-										<li class="navigation__item_search">
+										<li><a href="">About</a></li>
+										<li><a href="">Servise</a></li>
+										<li><a href="">Work</a></li>
+										<li><a href="">Blog</a></li>
+										<li><a href="">Contact</a></li>
+										<li ><a href=""><i class="icon-shopping-card"></i></a></li>
+										<li>
 											<form action="#" >
 												<input type="search">
 												<button type="button" class="js-search-btn">
@@ -42,6 +42,7 @@
 										</li>
 									</ul>
 								</nav>
+								<a href="#" class="burger-button goto-burger"></a>
 						</header>
 						<div class="page__inner main__inner">
 						<h2 class="main__pre-title pre-title">Creative Template</h2>
@@ -658,7 +659,7 @@
 				</div>
 			</section>
 			<section class="map">
-				<a data-fancybox data-type="iframe" data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2563.205080976824!2d36.2170358!3d50.0262529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a09f63ab0f8b%3A0x2d4c18681aa4be0a!2z0KXQsNGA0YzQutC-0LIsINCl0LDRgNGM0LrQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1527536431337" href="javascript:;" style="display: block;">
+				<a data-fancybox data-type="iframe" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1710.728496457983!2d36.21794765768648!3d50.02641224619483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8aa83ecfaf11561b!2zSVQgQ2xvdWQg0JBj0LBkZW3Rgw!5e0!3m2!1sru!2sua!4v1529311493268" href="javascript:;" style="display: block;">
 					<img src="img/map.png" alt="map">
 					<div class="page__inner">
 						<div class="map__block" >
@@ -777,6 +778,7 @@
 
 <script src="js/main.js"></script>
 <script src="js/search.js"></script>
+<script src="js/btn.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 <script>
 

@@ -1,6 +1,6 @@
 $(function() {
     $(".js-search-btn").click(function() {
-        $(".navigation__item_search").toggleClass("active");
+        $("li:last-child").toggleClass("active");
     });
 
     $(document).mouseup(function(e) {
@@ -9,5 +9,4 @@ $(function() {
 		  $(".navigation__item_search").removeClass("active");
 		}
 	  });
-
 });
